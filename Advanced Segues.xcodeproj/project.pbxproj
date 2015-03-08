@@ -13,6 +13,7 @@
 		3E56E47F1AAC2DC300A7F1AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E56E47E1AAC2DC300A7F1AC /* Images.xcassets */; };
 		3E56E4821AAC2DC300A7F1AC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E56E4801AAC2DC300A7F1AC /* LaunchScreen.xib */; };
 		3E56E48E1AAC2DC300A7F1AC /* Advanced_SeguesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E56E48D1AAC2DC300A7F1AC /* Advanced_SeguesTests.swift */; };
+		3E637F0C1AAC79390039FC0A /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E637F0B1AAC79390039FC0A /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		3E56E4871AAC2DC300A7F1AC /* Advanced SeguesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Advanced SeguesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E56E48C1AAC2DC300A7F1AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E56E48D1AAC2DC300A7F1AC /* Advanced_SeguesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advanced_SeguesTests.swift; sourceTree = "<group>"; };
+		3E637F0B1AAC79390039FC0A /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				3E56E4771AAC2DC300A7F1AC /* AppDelegate.swift */,
+				3E637F0B1AAC79390039FC0A /* TableViewController.swift */,
 				3E56E4791AAC2DC300A7F1AC /* ViewController.swift */,
 				3E56E47B1AAC2DC300A7F1AC /* Main.storyboard */,
 				3E56E47E1AAC2DC300A7F1AC /* Images.xcassets */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E56E47A1AAC2DC300A7F1AC /* ViewController.swift in Sources */,
+				3E637F0C1AAC79390039FC0A /* TableViewController.swift in Sources */,
 				3E56E4781AAC2DC300A7F1AC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +411,7 @@
 				3E56E4931AAC2DC300A7F1AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E56E4941AAC2DC300A7F1AC /* Build configuration list for PBXNativeTarget "Advanced SeguesTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				3E56E4961AAC2DC300A7F1AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
